@@ -76,7 +76,7 @@ Tʜɪs Bᴏᴛ Wᴀs Cʀᴇᴀᴛᴇᴅ Bʏ : @WarriorUnitsBots 💞</b>"""
 
     ABOUT_TXT = """<b>╭───────────⍟
 ├🤖 ᴍy ɴᴀᴍᴇ : {}
-├🖥️ Dᴇᴠᴇʟᴏᴩᴇʀꜱ : <a href=https://t.me/oo7jatji>STRANGER</a>{}
+├🖥️ Dᴇᴠᴇʟᴏᴩᴇʀꜱ : <a href=https://t.me/oo7jatji>STRANGER</a>
 ├👨‍💻 Pʀᴏɢʀᴀᴍᴇʀ : <a href=https://t.me/oo7jatji>STRANGER</a>
 ├📕 Lɪʙʀᴀʀy : <a https://github.com/pyrogram>PYROGRAM</a>
 ├✏️ Lᴀɴɢᴜᴀɢᴇ: <a https://www.python.org/>PYTHON</a>
