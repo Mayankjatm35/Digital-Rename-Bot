@@ -80,8 +80,8 @@ Tʜɪs Bᴏᴛ Wᴀs Cʀᴇᴀᴛᴇᴅ Bʏ : @WarriorUnitsBots 💞</b>"""
 ├👨‍💻 Pʀᴏɢʀᴀᴍᴇʀ : <a href=https://t.me/oo7jatji>STRANGER</a>
 ├📕 Lɪʙʀᴀʀy : <a https://github.com/pyrogram>PYROGRAM</a>
 ├✏️ Lᴀɴɢᴜᴀɢᴇ: <a https://www.python.org/>PYTHON</a>
-├💾 Dᴀᴛᴀ Bᴀꜱᴇ: <a href=https://cloud.mongodb.com/>{}MONGO DB</a>
-├📊 ᴠᴇʀsɪᴏɴ: <a href=https://t.me/oo7jatji>{}</a></b>     
+├💾 Dᴀᴛᴀ Bᴀꜱᴇ: <a href=https://cloud.mongodb.com/>MONGO DB</a>
+├📊 ᴠᴇʀsɪᴏɴ: <a href=https://t.me/oo7jatji>Warrior Units</a></b>     
 ╰───────────────⍟ """
 
     HELP_TXT = """
