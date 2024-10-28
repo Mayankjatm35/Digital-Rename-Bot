@@ -34,30 +34,30 @@ id_pattern = re.compile(r'^.\d+$')
 
 class Config(object):
     # digital_botz client config
-    API_ID = os.environ.get("API_ID", "")
-    API_HASH = os.environ.get("API_HASH", "")
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "") 
+    API_ID = os.environ.get("API_ID", "23159366")
+    API_HASH = os.environ.get("API_HASH", "4623dd30dd1303bddb729eb0862262d9")
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "8190138294:AAEKb4Ezrin5Q3Hcc5lNdUX6xnytxTYvD6g") 
 
     # premium account string session required 😢 
     STRING_SESSION = os.environ.get("STRING_SESSION", "")
     
     # database config
     DB_NAME = os.environ.get("DB_NAME","Digital_Rename_Bot")     
-    DB_URL = os.environ.get("DB_URL","")
+    DB_URL = os.environ.get("DB_URL","mongodb+srv://testbot:testbot@cluster0.7rzwxwx.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
  
     # other configs
-    RKN_PIC = os.environ.get("RKN_PIC", "https://telegra.ph/file/b746aadfe59959eb76f59.jpg")
-    ADMIN = [int(admin) if id_pattern.search(admin) else admin for admin in os.environ.get('ADMIN', '6705898491').split()]
-    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002123429361"))
+    RKN_PIC = os.environ.get("RKN_PIC", "https://telegra.ph/file/7687f4eb79b81db106765.jpg")
+    ADMIN = [int(admin) if id_pattern.search(admin) else admin for admin in os.environ.get('ADMIN', '5222155765').split()]
+    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1001917606160"))
 
     # free upload limit 
     FREE_UPLOAD_LIMIT = 6442450944 # calculation 6*1024*1024*1024=results
     
     #vforce subs
     try:
-        FORCE_SUB = int(os.environ.get("FORCE_SUB", "")) 
+        FORCE_SUB = int(os.environ.get("FORCE_SUB", "WarriorUnitsBots")) 
     except:
-        FORCE_SUB = os.environ.get("FORCE_SUB", "Digital_Botz")
+        FORCE_SUB = os.environ.get("FORCE_SUB", "WarriorUnitsBots")
         
     # wes response configuration     
     PORT = int(os.environ.get("PORT", "8080"))
@@ -72,7 +72,7 @@ class rkn(object):
 𝚈ᴏᴜ 𝙲ᴀɴ 𝙰ʟsᴏ 𝙲ᴏɴᴠᴇʀᴛ 𝚅ɪᴅᴇᴏ 𝚃ᴏ 𝙵ɪʟᴇ & 𝙵ɪʟᴇ 𝚃ᴏ 𝚅ɪᴅᴇᴏ
 𝚃𝙷𝙸𝚂 𝙱𝙾𝚃 𝙰𝙻𝚂𝙾 𝚂𝚄𝙿𝙿𝙾𝚁𝚃𝚂 𝙲𝚄𝚂𝚃𝙾𝙼 𝚃𝙷𝚄𝙼𝙱𝙽𝙰𝙸𝙻 𝙰𝙽𝙳 𝙲𝚄𝚂𝚃𝙾𝙼 𝙲𝙰𝙿𝚃𝙸𝙾𝙽
 
-Tʜɪs Bᴏᴛ Wᴀs Cʀᴇᴀᴛᴇᴅ Bʏ : @Digital_Botz 💞</b>"""
+Tʜɪs Bᴏᴛ Wᴀs Cʀᴇᴀᴛᴇᴅ Bʏ : @WarriorUnitsBots 💞</b>"""
 
     ABOUT_TXT = """<b>╭───────────⍟
 ├🤖 ᴍy ɴᴀᴍᴇ : {}
@@ -81,7 +81,7 @@ Tʜɪs Bᴏᴛ Wᴀs Cʀᴇᴀᴛᴇᴅ Bʏ : @Digital_Botz 💞</b>"""
 ├📕 Lɪʙʀᴀʀy : {}
 ├✏️ Lᴀɴɢᴜᴀɢᴇ: {}
 ├💾 Dᴀᴛᴀ Bᴀꜱᴇ: {}
-├📊 ᴠᴇʀsɪᴏɴ: <a href=https://github.com/DigitalBotz/Digital-Rename-Bot>{}</a></b>     
+├📊 ᴠᴇʀsɪᴏɴ: <a href=https://t.me/oo7jatji>{}</a></b>     
 ╰───────────────⍟ """
 
     HELP_TXT = """
@@ -89,15 +89,14 @@ Tʜɪs Bᴏᴛ Wᴀs Cʀᴇᴀᴛᴇᴅ Bʏ : @Digital_Botz 💞</b>"""
 
 ✏️ <b><u>Hᴏᴡ Tᴏ Rᴇɴᴀᴍᴇ A Fɪʟᴇ</u></b>
 <b>•></b> Sᴇɴᴅ Aɴy Fɪʟᴇ Aɴᴅ Tyᴩᴇ Nᴇᴡ Fɪʟᴇ Nɴᴀᴍᴇ \nAɴᴅ Aᴇʟᴇᴄᴛ Tʜᴇ Fᴏʀᴍᴀᴛ [ document, video, audio ].           
-ℹ️ 𝗔𝗻𝘆 𝗢𝘁𝗵𝗲𝗿 𝗛𝗲𝗹𝗽 𝗖𝗼𝗻𝘁𝗮𝗰𝘁 :- <a href=https://t.me/DigitalBotz_Support>𝑺𝑼𝑷𝑷𝑶𝑹𝑻 𝑮𝑹𝑶𝑼𝑷</a>
+ℹ️ 𝗔𝗻𝘆 𝗢𝘁𝗵𝗲𝗿 𝗛𝗲𝗹𝗽 𝗖𝗼𝗻𝘁𝗮𝗰𝘁 :- <a href=https://t.me/WarriorUnitsBots>𝑺𝑼𝑷𝑷𝑶𝑹𝑻 𝑮𝑹𝑶𝑼𝑷</a>
 """
 
     UPGRADE= """
 •⪼ ★𝘗𝘭𝘢𝘯𝘴     -    ⏳𝘋𝘢𝘵𝘦 -  💸𝘗𝘳𝘪𝘤𝘦 - limit 
-•⪼ 🏆𝘗ro -    1𝘮𝘰𝘯𝘵𝘩 -   179 - 100gb
-•⪼ 💎 Ultra Pro  -   1𝘮𝘰𝘯𝘵𝘩 -   199 - 1000gb
+•⪼ 🏆𝘗ro -    1𝘮𝘰𝘯𝘵𝘩 -   100 - 100gb
+•⪼ 💎 Ultra Pro  -   1𝘮𝘰𝘯𝘵𝘩 -   150 - 1000gb
 
-- 𝘋𝘪𝘴𝘤𝘰𝘶𝘯𝘵 𝘈𝘭𝘭 𝘗𝘭𝘢𝘯 𝘙𝘴.9
     """
     THUMBNAIL = """
 🌌 <b><u>Hᴏᴡ Tᴏ Sᴇᴛ Tʜᴜᴍʙɴɪʟᴇ</u></b>
@@ -146,9 +145,9 @@ V𝟹.𝟶.𝟶 [STABLE]
 
 ☞ Fᴏʀ Exᴀᴍᴘʟᴇ:-
 
-◦ <code> -map 0 -c:s copy -c:a copy -c:v copy -metadata title="Powered By:- @Rkn_Bots" -metadata author="@RknDeveloper" -metadata:s:s title="Subtitled By :- @Rkn_Bots" -metadata:s:a title="By :- @Rkn_Bots" -metadata:s:v title="By:- @RknDeveloper" </code>
+◦ <code> -map 0 -c:s copy -c:a copy -c:v copy -metadata title="Powered By:- @WarriorUnitsBots" -metadata author="@WarriorUnitsBots" -metadata:s:s title="Subtitled By :- @WarriorUnitsBots" -metadata:s:a title="By :- @WarriorUnitsBots" -metadata:s:v title="By:- @WarriorUnitsBots" </code>
 
-📥 Fᴏʀ Hᴇʟᴘ Cᴏɴᴛ. @Digital_Botz
+📥 Fᴏʀ Hᴇʟᴘ Cᴏɴᴛ. @WarriorUnitsBots
 """
     
     CUSTOM_FILE_NAME = """
@@ -163,8 +162,8 @@ you can pre-add a prefix and suffix along with your new filename
 ➢ /see_suffix - Tᴏ Sᴇᴇ Yᴏᴜʀ Sᴜғғɪx !!
 ➢ /del_suffix - Tᴏ Dᴇʟᴇᴛᴇ Yᴏᴜʀ Sᴜғғɪx !!
 
-Exᴀᴍᴩʟᴇ:- `/set_suffix @Digital_Botz`
-Exᴀᴍᴩʟᴇ:- `/set_prefix @Digital_Botz`
+Exᴀᴍᴩʟᴇ:- `/set_suffix @WarriorUnitsBots`
+Exᴀᴍᴩʟᴇ:- `/set_prefix @WarriorUnitsBots`
 """
     
     #⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️
@@ -172,11 +171,11 @@ Exᴀᴍᴩʟᴇ:- `/set_prefix @Digital_Botz`
     # ᴡʜᴏᴇᴠᴇʀ ɪs ᴅᴇᴘʟᴏʏɪɴɢ ᴛʜɪs ʀᴇᴘᴏ ɪs ᴡᴀʀɴᴇᴅ ⚠️ ᴅᴏ ɴᴏᴛ ʀᴇᴍᴏᴠᴇ ᴄʀᴇᴅɪᴛs ɢɪᴠᴇɴ ɪɴ ᴛʜɪs ʀᴇᴘᴏ #ғɪʀsᴛ ᴀɴᴅ ʟᴀsᴛ ᴡᴀʀɴɪɴɢ ⚠️
     DEV_TXT = """<b><u>Sᴩᴇᴄɪᴀʟ Tʜᴀɴᴋꜱ & Dᴇᴠᴇʟᴏᴩᴇʀꜱ</b></u>
     
-» 𝗦𝗢𝗨𝗥𝗖𝗘 𝗖𝗢𝗗𝗘 : <a href=https://github.com/DigitalBotz/Digital-Rename-Bot>Digital-Rename-Bot</a>
+» BUY 𝗦𝗢𝗨𝗥𝗖𝗘 𝗖𝗢𝗗𝗘 : <a href=https://t.me/oo7jatji>Stranger</a>
 
-• ❣️ <a href=https://github.com/RknDeveloper>RknDeveloper</a>
-• ❣️ <a href=https://github.com/DigitalBotz>DigitalBotz</a>
-• ❣️ <a href=https://github.com/JayMahakal98>Jay Mahakal</a> """
+• ❣️ <a href=https://https://t.me/oo7jatji>Owner</a>
+• ❣️ <a href=https://https://t.me/WarriorUnitsBots>Bots Updates</a>
+• ❣️ <a href=https://https://t.me/Warrior_Units>Anime Channel</a> """
     # ⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️
 
     SEND_METADATA = """
@@ -184,9 +183,9 @@ Exᴀᴍᴩʟᴇ:- `/set_prefix @Digital_Botz`
 
 ☞ Fᴏʀ Exᴀᴍᴘʟᴇ:-
 
-◦ <code> -map 0 -c:s copy -c:a copy -c:v copy -metadata title="Powered By:- @Rkn_Bots" -metadata author="@RknDeveloper" -metadata:s:s title="Subtitled By :- @Rkn_Bots" -metadata:s:a title="By :- @Rkn_Bots" -metadata:s:v title="By:- @RknDeveloper" </code>
+◦ <code> -map 0 -c:s copy -c:a copy -c:v copy -metadata title="Powered By:- @WarriorUnitsBots" -metadata author="@WarriorUnitsBots" -metadata:s:s title="Subtitled By :- @WarriorUnitsBots" -metadata:s:a title="By :- @WarriorUnitsBots" -metadata:s:v title="By:- @WarriorUnitsBots" </code>
 
-📥 Fᴏʀ Hᴇʟᴘ Cᴏɴᴛ. @Digital_Botz
+📥 Fᴏʀ Hᴇʟᴘ Cᴏɴᴛ. @WarriorUnitsBots
 """
     
     RKN_PROGRESS = """<b>\n
