@@ -74,15 +74,7 @@ class rkn(object):
 
 Tʜɪs Bᴏᴛ Wᴀs Cʀᴇᴀᴛᴇᴅ Bʏ : @WarriorUnitsBots 💞</b>"""
 
-    ABOUT_TXT = """<b>╭───────────⍟
-├🤖 ᴍy ɴᴀᴍᴇ : {}
-├🖥️ Dᴇᴠᴇʟᴏᴩᴇʀꜱ : <a href=https://t.me/oo7jatji>{STRANGER}</a>{}
-├👨‍💻 Pʀᴏɢʀᴀᴍᴇʀ : <a href=https://t.me/oo7jatji>{STRANGER}</a>
-├📕 Lɪʙʀᴀʀy : <a https://github.com/pyrogram>{}</a>
-├✏️ Lᴀɴɢᴜᴀɢᴇ: <a https://www.python.org/>{}</a>
-├💾 Dᴀᴛᴀ Bᴀꜱᴇ: <a href=https://cloud.mongodb.com/>{}</a>
-├📊 ᴠᴇʀsɪᴏɴ: <a href=https://t.me/oo7jatji>{}</a></b>     
-╰───────────────⍟ """
+    ABOUT_TXT = """<b> """
 
     HELP_TXT = """
 <b>•></b> /start Tʜᴇ Bᴏᴛ.
