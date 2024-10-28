@@ -57,7 +57,7 @@ class Database:
             uploadlimit=Config.FREE_UPLOAD_LIMIT,
             daily=0,
             metadata_mode=False,
-            metadata_code=""" -map 0 -c:s copy -c:a copy -c:v copy -metadata title="Powered By:- @Rkn_Bots" -metadata author="@RknDeveloper" -metadata:s:s title="Subtitled By :- @Rkn_Bots" -metadata:s:a title="By :- @RknDeveloper" -metadata:s:v title="By:- @Rkn_Bots" """,
+            metadata_code=""" -map 0 -c:s copy -c:a copy -c:v copy -metadata title="Powered By:- @WarriorUnitsBots" -metadata author="@WarriorUnitsBots" -metadata:s:s title="Subtitled By :- @WarriorUnitsBots" -metadata:s:a title="By :- @WarriorUnitsBots" -metadata:s:v title="By:- @WarriorUnitsBots" """,
             expiry_time=None,
             has_free_trial=False,
             ban_status=dict(
